@@ -6,5 +6,12 @@
 
 body {
     height: 100vh;
-    background: gray;
+    background: whitesmoke;
+}
+
+section {
+    height: 500px;
+    background: whitesmoke;
+    padding: 0px 200px;
+    /* border: 1px dashed black; */
 }
