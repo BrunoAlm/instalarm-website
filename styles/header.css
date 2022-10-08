@@ -1,19 +1,46 @@
-header {
-    
-}
+header {}
 
 .background-header-preto {
-    position: absolute;
     background-color: black;
-
+    display: flex;
+    justify-content: right;
     width: 100%;
+    padding: 0 10px;
     height: 40px;
     top: 0;
     z-index: -1;
 }
 
+.contact-header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.contact-header a {
+    margin: 0 5px;
+}
+
+.contact-header i {
+    color: white;
+    font-size: 16px;
+}
+
+
+.background-header-preto p,
+a {
+    font-size: 12px;
+    margin: 0 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.background-header-preto a:hover {
+    border-bottom: solid 2px white;
+
+}
+
 .background-header-laranja {
-    position: absolute;
     width: 100%;
     height: 180px;
     top: 40px;
@@ -26,6 +53,12 @@ header {
     left: 60rem;
     display: flex;
     align-items: center;
+}
+
+#menu nav {
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
 }
 
 #menu ul {
@@ -43,7 +76,7 @@ header {
     display: block;
     color: white;
     text-align: center;
-    font-family: 'Futura Now', monospace;
+    font-family: Futura Now, monospace;
     font-size: 18px;
     padding: 6px 16px;
     text-decoration: none;
@@ -58,10 +91,11 @@ header {
 header {
     overflow-x: hidden;
     /* essa altura foi calculada usando o height + o top do background-header-laranja */
-    height: calc(180px + 40px); 
+    height: calc(180px + 40px);
 }
 
 header img {
-    margin-top: 20px;
+    position: absolute;
+    top: 20px;
     height: 180px;
 }

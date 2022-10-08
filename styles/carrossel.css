@@ -1,0 +1,19 @@
+#carrossel {
+    height: 474px;
+}
+
+#carrossel img {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.carrossel-content {
+    padding: 100px;
+}
+
+.carrossel-content h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 52px;
+}

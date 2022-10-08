@@ -1,0 +1,52 @@
+.orangeFooter {
+    height: 180px;
+    padding: 20px;
+    background-color: var(--laranjinha);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.orangeFooter p{
+    font-size: 12px;
+    text-align: center;
+    margin-top:5px ;
+    font-family: 'Futura Now';
+}
+footer h4 {
+    font-family: 'Futura Now';
+}
+
+.footer-content {
+    height: 140px;
+    width: 200px;
+    margin: 0 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.blackFooter{
+    height: 40px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blackFooter p {
+    font-size: 14px;
+    color: white;
+}
+
+.orangeFooter a {
+    padding: 2px 0;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+    border-bottom: solid 2px transparent;
+}
+.orangeFooter a:hover {
+    border-bottom: solid 2px white;
+}

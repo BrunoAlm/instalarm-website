@@ -17,6 +17,7 @@ body {
 } */
 
 @font-face {
-    font-family: 'Futura Now', monospace;
-    src: url('assets/fonts/futura-now/FuturaNowText.ttf');
+    font-family: 'Futura Now';
+    src: url('../assets/fonts/futura-now/FuturaNowText.ttf');
+    font-weight: normal;
 }
