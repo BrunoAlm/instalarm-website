@@ -1,5 +1,3 @@
-header {}
-
 .background-header-preto {
     background-color: black;
     display: flex;
@@ -19,13 +17,18 @@ header {}
 
 .contact-header a {
     margin: 0 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.contact-header a:hover {
+    color: white;
 }
 
 .contact-header i {
     color: white;
     font-size: 16px;
 }
-
 
 .background-header-preto p,
 a {
@@ -76,7 +79,6 @@ a {
     display: block;
     color: white;
     text-align: center;
-    font-family: Futura Now, monospace;
     font-size: 18px;
     padding: 6px 16px;
     text-decoration: none;

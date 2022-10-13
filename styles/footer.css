@@ -7,14 +7,17 @@
     justify-content: center;
     color: white;
 }
-.orangeFooter p{
+
+.orangeFooter p {
     font-size: 12px;
     text-align: center;
-    margin-top:5px ;
-    font-family: 'Futura Now';
+    margin: 0;
+    font-family: 'Inter';
 }
+
 footer h4 {
-    font-family: 'Futura Now';
+    font-family: 'Inter';
+    font-weight: bolder
 }
 
 .footer-content {
@@ -26,7 +29,7 @@ footer h4 {
     align-items: center;
 }
 
-.blackFooter{
+.blackFooter {
     height: 40px;
     background-color: black;
     display: flex;
@@ -47,6 +50,11 @@ footer h4 {
     margin-top: 5px;
     border-bottom: solid 2px transparent;
 }
+
 .orangeFooter a:hover {
     border-bottom: solid 2px white;
+}
+
+.orangeFooter a:hover {
+    color: white;   
 }

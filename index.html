@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>INSTALARME | Página Incial</title>
+  <title>INSTALARME</title>
   <meta name="description" content="INSTALAÇÃO DE CÂMERAS E ALARMES">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="/assets/png/favicon-branco.png">
@@ -16,12 +16,18 @@
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/carrossel.css">
+  <link rel="stylesheet" href="styles/solucoes.css">
+  <link rel="stylesheet" href="styles/quem.css">
 
   <!-- GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
@@ -39,23 +45,100 @@
       <img src="assets/png/header-logo.png" alt="img">
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
+          <li><a href="#">Home</a></li>
           <li><a href="">Quem Somos</a></li>
-          <li><a href="">Soluções</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="#solucoes">Soluções</a></li>
+          <li><a href="https://wa.link/l10jhg" target="blank">Contato</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
   <section id="carrossel">
-    <img src="./assets/png/carrossel01.png" alt="imagem01-carrossel">
+    <!-- <img src="./assets/png/carrossel01.png" alt="imagem01-carrossel"> -->
     <div class="carrossel-content">
       <h1>CÂMERAS <br> ALARMES</h1>
     </div>
+  </section>
+
+  <section id="quem-somos">
+  </section>
+
+  <section id="solucoes">
+    <h4 class="titulo-solucoes">Produtos que utilizamos</h4>
+    <div id="carrossel-solucoes" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1500">
+          <a href="https://www.hikvision.com/pt-br/products/Turbo-HD-Products/DVR/AcuSense-Series/iDS-7204HQHI-M1-S/"
+            target="_blank">
+            <div class="imagem-carrossel-01 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.hikvision.com/pt-br/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd1027g0-l/"
+            target="_blank">
+            <div class="imagem-carrossel-02 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.hikvision.com/pt-br/products/Turbo-HD-Products/Turbo-HD-Cameras/Value-Series/ds-2ce76d0t-itpf-c-/"
+            target="_blank">
+            <div class="imagem-carrossel-03 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.hikvision.com/pt-br/products/IP-Products/Network-Cameras/Value-Series/DS-2CD1023G0-I/"
+            target="_blank">
+            <div class="imagem-carrossel-04 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.intelbras.com/pt-br/gravador-de-video-da-serie-1000-com-4-canais-mhdx-1004-c?gclid=Cj0KCQjwy5maBhDdARIsAMxrkw3ItwKa3mO4uuAr0WPWnGA1r9fvhPSAt24A7hYwk0TOltuFmgcpHskaApbYEALw_wcB"
+            target="_blank">
+            <div class="imagem-carrossel-05 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.intelbras.com/pt-br/camera-bullet-multi-hd-1-megapixel-vhd-1010-b-g6?gclid=Cj0KCQjwy5maBhDdARIsAMxrkw0WqM_5YB39prL3aVzPO3TSY0W0o3eR0PfKdn8UnDAjgHkGhISQsXsaAh0HEALw_wcB"
+            target="_blank">
+            <div class="imagem-carrossel-06 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://www.intelbras.com/pt-br/central-de-alarme-monitorada-com-18-zonas-amt-2018-e?gclid=Cj0KCQjwy5maBhDdARIsAMxrkw010Mi-oibMJLilUhhXCuvjaZkzyKsmM8h_erzgtk6LEdvRMjYI7FYaAhS9EALw_wcB"
+            target="_blank">
+            <div class="imagem-carrossel-07 imagem-carrossel"></div>
+          </a>
+        </div>
+
+        <div class="carousel-item" data-bs-interval="1500">
+          <a href="https://ipec.ind.br/produto/tx-top-preto/" target="_blank">
+            <div class="imagem-carrossel-08 imagem-carrossel"></div>
+          </a>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrossel-solucoes" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrossel-solucoes" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section id="logos">
+    <img src="/assets/png/solucoes/TESTE/logos.png" alt="logos">
 
   </section>
-  <section></section>
 
   <footer>
     <div class="orangeFooter">
@@ -67,8 +150,8 @@
       <div class="footer-content">
         <h4>CONTATO</h4>
         <p>instalarme.jipa@hotmail.com</p>
+        <a href="https://www.instagram.com/instalarme_jipa/" target="blank"><i class="fa-brands fa-instagram"></i> instalarme_jipa</a>
         <a href="https://wa.link/l10jhg" target="_blank">(69) 9 9366-5908</a>
-        <a href="https://www.instagram.com/instalarme_jipa/" target="_blank">@instalarme_jipa</a>
       </div>
       <div class="footer-content">
         <h4>SERVIÇOS</h4>
@@ -79,6 +162,10 @@
       <p>©2022 InstAlarm®. Todos os direitos reservados. Desenvolvido com ❤️ por BMWeb</p>
     </div>
   </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+    integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

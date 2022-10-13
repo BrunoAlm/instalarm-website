@@ -1,15 +1,8 @@
 #carrossel {
     height: 474px;
-}
-
-#carrossel img {
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-}
-
-.carrossel-content {
-    padding: 100px;
+    background-image: url('../assets/png/carrossel01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .carrossel-content h1 {

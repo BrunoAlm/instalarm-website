@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter';
 }
 
 body {
@@ -9,13 +10,13 @@ body {
     background: whitesmoke;
 }
 
-/* section {
+section {
     height: 500px;
-    background: whitesmoke;
-    padding: 0px 200px;
-    /* border: 1px dashed black; 
-} */
+    /* border: 1px dashed black; */
+    padding: 20px 100px;
+}
 
+/*
 @font-face {
     font-family: 'Futura Now';
     src: url('../assets/fonts/futura-now/FuturaNowText.ttf');
