@@ -6,42 +6,42 @@
     height: 400px;
 }
 .imagem-carrossel-01 {
-    background-image: url('/assets/png/solucoes/TESTE/01.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/01.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-02 {
-    background-image: url('/assets/png/solucoes/TESTE/02.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/02.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-03 {
-    background-image: url('/assets/png/solucoes/TESTE/03.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/03.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-04 {
-    background-image: url('/assets/png/solucoes/TESTE/04.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/04.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-05 {
-    background-image: url('/assets/png/solucoes/TESTE/05.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/05.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-06 {
-    background-image: url('/assets/png/solucoes/TESTE/06.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/06.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-07 {
-    background-image: url('/assets/png/solucoes/TESTE/07.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/07.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
 .imagem-carrossel-08 {
-    background-image: url('/assets/png/solucoes/TESTE/08.png');
+    background-image: url('../assets/png/solucoes/carrossel-images/08.png');
     background-repeat: no-repeat;
     background-position: center center;
 }
